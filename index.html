@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Ryan - Backend Developer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="gradient-bg"></div>
+    <div class="particles" id="particles"></div>
+
+    <nav id="navbar">
+      <div class="logo">Portfolio</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero" id="home">
+      <img
+        src="img/ryan.jpg"
+        alt="Profile Photo"
+        class="profile-photo"
+        id="profilePhoto"
+      />
+      <div class="hero-content">
+        <h1>Hi, Saya <span class="gradient-text">Muhammad Ryan</span></h1>
+        <p class="subtitle">Membuat pengalaman digital yang memukau</p>
+        <a href="#projects" class="cta-button">Lihat Karya Saya</a>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <h2 class="section-title">
+        Tentang <span class="gradient-text">Saya</span>
+      </h2>
+      <div class="about-content">
+        <p>
+          Halo! Saya adalah seorang developer yang passionate dalam menciptakan
+          solusi digital yang inovatif dan berdampak. Dengan pengalaman dalam
+          berbagai teknologi dan framework modern, saya fokus pada pengembangan
+          aplikasi yang tidak hanya fungsional, tetapi juga memberikan
+          pengalaman pengguna yang luar biasa.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <h2 class="section-title">
+        Projek <span class="gradient-text">Terbaru</span>
+      </h2>
+      <div class="projects-grid">
+        <a
+          href="https://github.com/Ryanz1511/NobareCoffeShopRemakeV2"
+          class="project-card"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div class="project-img">
+            <img src="img/nobare.png" alt="Proyek Mobile App CoffeShop" />
+          </div>
+          <div class="project-info">
+            <h3>Mobile App (still in progress)</h3>
+            <p>
+              Aplikasi CoffeShop dengan UI/UX yang intuitif dan performa yang
+              optimal.
+            </p>
+          </div>
+        </a>
+
+        <a
+          href="https://cine-ryn-movies-information.vercel.app/"
+          class="project-card"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div class="project-img">
+            <img src="img/cine.png" alt="Proyek Web Platform" />
+          </div>
+          <div class="project-info">
+            <h3>CineRyn</h3>
+            <p>Platform web Untuk mengecek ratting sebuah film.</p>
+          </div>
+        </a>
+
+        <a
+          href="https://bonk-doggy.vercel.app/"
+          class="project-card"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div class="project-img">
+            <img src="img/bonk.png" alt="Proyek SaaS Product" />
+          </div>
+          <div class="project-info">
+            <h3>Bonk Doggy</h3>
+            <p>Project sederhana tentang game seperti pop cat.</p>
+          </div>
+        </a>
+
+        <a
+          href="https://github.com/Syfaa-fby/BakulinerV2"
+          class="project-card"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div class="project-img">
+            <img src="img/bakuliner.png" alt="Proyek E-Commerce" />
+          </div>
+          <div class="project-info">
+            <h3>Bakulineran (still in progress)</h3>
+            <p>
+              web untuk rekomendasi kuliner dan souvenir khas kalimantan
+              selatan.
+            </p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <h2 class="section-title">
+        Keahlian <span class="gradient-text">Saya</span>
+      </h2>
+      <div class="skills-container">
+        <div class="skill-item">
+          <div class="icon">
+            <img src="img/php.png" alt="PHP Icon" />
+          </div>
+          <h3>PHP</h3>
+        </div>
+        <div class="skill-item">
+          <div class="icon">
+            <img src="img/nodejs.png" alt="Node.js Icon" />
+          </div>
+          <h3>Node.js</h3>
+        </div>
+        <div class="skill-item">
+          <div class="icon">
+            <img src="img/mysql.png" alt="SQL Icon" />
+          </div>
+          <h3>SQL</h3>
+        </div>
+        <div class="skill-item">
+          <div class="icon">
+            <img src="img/js.png" alt="JavaScript Icon" />
+          </div>
+          <h3>JavaScript</h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <h2 class="section-title">
+        Hubungi <span class="gradient-text">Saya</span>
+      </h2>
+      <form class="contact-form" id="contactForm">
+        <div class="form-group">
+          <input type="text" placeholder="Nama Anda" required />
+        </div>
+        <div class="form-group">
+          <input type="email" placeholder="Email Anda" required />
+        </div>
+        <div class="form-group">
+          <textarea placeholder="Pesan Anda" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Kirim Pesan</button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="social-links">
+        <a href="https://github.com/Ryanz1511" title="GitHub">
+          <img src="img/github.png" alt="GitHub Icon" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/muhammad-ryan-472902328?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          title="LinkedIn"
+        >
+          <img src="img/linkedin.png" alt="LinkedIn Icon" />
+        </a>
+        <a
+          href="https://www.instagram.com/mryan_.__?igsh=MW5sMnpsMXpsY2w3dg=="
+          title="Instagram"
+        >
+          <img src="img/instagram.png" alt="Instagram Icon" />
+        </a>
+      </div>
+      <p>&copy; My Portfolio. Muhammad Ryan</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
