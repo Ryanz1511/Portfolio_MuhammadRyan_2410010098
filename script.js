@@ -1,4 +1,4 @@
-// === Generate Particles ===
+// === Gasan  Particles ===
 const particlesContainer = document.getElementById("particles");
 for (let i = 0; i < 50; i++) {
   const particle = document.createElement("div");
@@ -36,17 +36,8 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   });
 });
 
-// === Form Submission ===
-const contactForm = document.getElementById("contactForm");
-if (contactForm) {
-  contactForm.addEventListener("submit", (e) => {
-    e.preventDefault();
-    alert("Terima kasih! Pesan Anda telah terkirim.");
-    e.target.reset();
-  });
-}
 
-// === Animate Elements on Scroll ===
+// === Animasi Elements on Scroll ===
 const observerOptions = {
   threshold: 0.1,
   rootMargin: "0px 0px -100px 0px",
